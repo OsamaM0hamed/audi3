@@ -1,0 +1,164 @@
+html{
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 16px;
+    color: #333;
+}
+body{
+    background-color:whitesmoke;
+    margin-left: 80px;
+    margin-right: 80px;
+
+}
+header{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.763),rgba(0, 0, 0, 0.763)) , url(../images/1920x1080_DSC_2740-build-6.5.2022-V1.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left: -80px;
+    margin-right: -80px;
+    
+}
+
+.logo{
+    mix-blend-mode: multiply;
+    margin-top: 40px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-nav{
+    list-style: none;
+    display: flex;
+    
+}
+.main-nav li{
+    margin-right: 30px;
+    
+   
+}
+.main-nav li a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.main-nav li a:hover{
+    transition: all 1.5s;
+    color: navajowhite;
+}
+
+
+
+
+
+
+.under-nav{
+    list-style: none;
+    display: flex;
+    background-color: black;
+    width: 100%;
+    
+        
+}
+.under-nav li{
+    margin-right: 30px;
+    
+   
+}
+.under-nav li a{
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.under-nav li a:hover{
+    transition: all 1.5s;
+    color: navajowhite;
+}
+
+
+h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 60px;
+    font-family: arial;
+    font-weight: inherit;
+}
+
+.under{
+    background-color: black;
+}
+.information{
+    text-align: center;
+    margin-top: 60px;
+}
+.information ul{
+    margin-top: 60px;
+
+}
+.information a{
+    margin-right: 20px;
+    padding: 10px 30px 10px 30px;
+    border: solid 1px rgb(67, 49, 49);
+    width: 60px;
+    text-decoration: none;
+    /* color: rgb(255, 255, 255); */
+    box-sizing: border-box;
+    padding-block: 1em;
+
+}
+.information a:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.642);
+    transition: all 1s;
+}
+.search{
+    background-color: black;
+    color: white;
+}
+.offers{
+    color: rgb(0, 0, 0);
+}
+.card-img-top{
+    width: 435px;
+}
+.card-title{
+    background-color: whitesmoke;
+}
+.ititle{
+    margin-left: 450px;
+    margin-right: 450px;
+}
+.p-information{
+    text-align: center;
+    align-items: center;
+    padding-top: 100px;
+}
+.p-information button:hover{
+    color: white;
+    background-color: black;
+    transition: all 1s;
+}
+.border{
+   width: 80px;
+   margin: 20px auto 20px; 
+    height: 3px;
+    background-color: black;
+}
+.icons{
+    
+    text-align: center;
+    justify-content: space-between;
+    
+
+}
+.footer{
+    text-align: center;
+    line-height: 1;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+.link{
+    text-decoration: none;
+    color: brown;
+}
